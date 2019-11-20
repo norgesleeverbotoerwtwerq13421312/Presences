@@ -65,7 +65,7 @@ function capitalise(splitStr)
 {
   for (var i = 0; i < splitStr.length; i++) {
     splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
-    splitStr[i] = splitStr[i].replace("Sasong", "Season").replace("Avsnitt", "Episode");
+    splitStr[i] = splitStr[i].replace("Sesong", "Season").replace("Avsnitt", "Episode");
   }
   return splitStr.join(" ");
 }
